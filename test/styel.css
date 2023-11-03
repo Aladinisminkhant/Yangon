@@ -1,0 +1,78 @@
+
+body{margin: 0;}
+.all{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.onepic{
+    width: 10%;
+}.twopic{
+    width: 60%;
+    margin-top: 20px;
+}
+.three{
+    width: 30%;
+  
+}
+.line{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: green;
+ 
+}
+p{
+    font-size: x-small;
+}
+button:hover{
+    background-color: rgb(119, 114, 156);
+    transition: 0.4s;
+    opacity: 0.5;
+}
+button:active{
+background-color: rgb(25, 188, 47);
+transition: 0.4s;
+opacity: 0.5;
+}
+
+.ap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(27, 27, 85);
+    color: white;
+    height: 200px;
+}
+.fp{
+    width: 35%;
+text-align: center;
+padding-top: 30px;
+opacity: 0.5;
+}
+.sp{
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0.5;
+   
+}
+.tp{
+    text-align: center;
+    width: 35%;
+    opacity: 0.5;
+    padding-top: 30px;
+
+}
+.minkhatisme{
+    margin-bottom: -40px;
+    z-index: 1000;
+}
+.fft{
+    background-color: rgb(27, 27, 85);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 30px;
+}
